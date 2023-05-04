@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+body{
+	font-family: sans-serif;
+	font-size: 0.7rem;
+	background-color: #f0f0f0;
+}
+
+.url-form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+	max-width: 100%;
+}
+
+.url-input{
+	background-color: #f0f0f0;
+	width: 20rem;
+	padding: 0.5rem;
+}
+
+.url-button{
+	padding: 0.5rem;
+}

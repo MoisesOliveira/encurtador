@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" th:href="@{style/resultado.css}">
+<title>Encurtador de URL - Sucesso!</title>
+</head>
+<body>
+	
+	<script th:src="@{script/copy.js}" defer></script>
+	
+	<nav>
+		<h1>Encurtador de URL</h1>
+	</nav>
+	
+	<div class="url-form">
+		<h2>O seu link já foi encurtado:</h2>
+		<div class="flex-row">
+			<input class="url-input" disabled th:value="${link}" id="resultado">
+			<button onclick="copy()">Copiar</button>
+		</div>
+		
+	</div>
+</body>
+</html>
